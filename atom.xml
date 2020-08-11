@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://NERV-0.github.io</id>
     <title>NERV-0</title>
-    <updated>2020-08-11T02:36:33.393Z</updated>
+    <updated>2020-08-11T02:40:05.639Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://NERV-0.github.io"/>
     <link rel="self" href="https://NERV-0.github.io/atom.xml"/>
@@ -25,7 +25,9 @@
 2.while循环<br>
 先判断再执行<br>
 3.do...while循环<br>
-先无条件执行一遍再判断</p>
+先无条件执行一遍再判断<br>
+PS：循环可互相嵌套<br>
+算法的特性:输入、输出、有穷性、确定性和可行性。 输入/输出:算法具有零个或多个输入,算         法至少具有一个或多个输出</p>
 ]]></content>
     </entry>
     <entry>
