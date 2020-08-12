@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://NERV-0.github.io</id>
     <title>NERV-0</title>
-    <updated>2020-08-11T02:40:05.639Z</updated>
+    <updated>2020-08-12T03:05:29.214Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://NERV-0.github.io"/>
     <link rel="self" href="https://NERV-0.github.io/atom.xml"/>
@@ -10,6 +10,24 @@
     <logo>https://NERV-0.github.io/images/avatar.png</logo>
     <icon>https://NERV-0.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, NERV-0</rights>
+    <entry>
+        <title type="html"><![CDATA[C语言学习——指针]]></title>
+        <id>https://NERV-0.github.io/post/c-yu-yan-xue-xi-zhi-zhen/</id>
+        <link href="https://NERV-0.github.io/post/c-yu-yan-xue-xi-zhi-zhen/">
+        </link>
+        <updated>2020-08-12T01:50:02.000Z</updated>
+        <content type="html"><![CDATA[<p>&amp;取地址运算符[个人理解为取字母]p=&amp;a<br>
+*指针运算符（指向）{个人理解为取字母里面的数字}<br>
+指针变量只能存放变量的地址<br>
+————指针和数组————<br>
+int a[10],<em>p;<br>
+p=a；（相当于p=&amp;a[0]）<br>
+1.数组的指针为数组的起始地址（就是初始元素），数组元素的指针为数组元素的地址<br>
+2.p+1和p++和</em>（a+1）就是取下一个元素的地址空间<br>
+3.当指针指向数组元素时，指针可以加减运算<br>
+4.此时a是一个固定不变的地址</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[C语言学习——循环]]></title>
         <id>https://NERV-0.github.io/post/c-yu-yan-xue-xi-xun-huan/</id>
