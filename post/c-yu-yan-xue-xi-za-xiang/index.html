@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>C语言学习——指针 | NERV-0</title>
+<title>C语言学习——杂项 | NERV-0</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
@@ -18,14 +18,12 @@
 
 
 
-    <meta name="description" content="&amp;取地址运算符[个人理解为取字母]p=&amp;a
-*指针运算符（指向）{个人理解为取字母里面的数字}
-指针变量只能存放变量的地址
-————指针和数组————
-int a[10],p;
-p=a；（相当于p=&amp;a[0]）
-1...." />
-    <meta name="keywords" content="C" />
+    <meta name="description" content="——标识符——
+1.首字母不能是数字，由字母、数字、下划线组成
+2.不能把C的关键字作为用户的标识符，例如：if、for、while等
+3.标识符对大小写敏感，即严格区分大小写。
+4.标识符长度是由机器上的编译系统决定的，一般的限制为8字符..." />
+    <meta name="keywords" content="" />
   </head>
   <body>
     <div id="app" class="main">
@@ -90,37 +88,31 @@ p=a；（相当于p=&amp;a[0]）
       <div class="main-container">
         <div class="content-container" data-aos="fade-up">
           <div class="post-detail">
-            <h2 class="post-title">C语言学习——指针</h2>
-            <div class="post-date">2020-08-12</div>
+            <h2 class="post-title">C语言学习——杂项</h2>
+            <div class="post-date">2020-08-13</div>
             
             <div class="post-content" v-pre>
-              <p>&amp;取地址运算符[个人理解为取字母]p=&amp;a<br>
-*指针运算符（指向）{个人理解为取字母里面的数字}<br>
-指针变量只能存放变量的地址<br>
-————指针和数组————<br>
-int a[10],<em>p;<br>
-p=a；（相当于p=&amp;a[0]）<br>
-1.数组的指针为数组的起始地址（就是初始元素），数组元素的指针为数组元素的地址<br>
-2.p+1和p++和</em>（a+1）就是取下一个元素的地址空间<br>
-3.当指针指向数组元素时，指针可以加减运算<br>
-4.此时a是一个固定不变的地址</p>
+              <p>——标识符——<br>
+1.首字母不能是数字，由字母、数字、下划线组成<br>
+2.不能把C的关键字作为用户的标识符，例如：if、for、while等<br>
+3.标识符对大小写敏感，即严格区分大小写。<br>
+4.标识符长度是由机器上的编译系统决定的，一般的限制为8字符<br>
+————————<br>
+1.b++是先取b的值做计算，再自加；<br>
+++b是先自加，再取b的值做计算。<br>
+2.例：若有int a=0,b=0; 则，执行语句“a&amp;&amp;(++b);”后，b的结果是（ A ）。<br>
+A) 0       B)  1       C)   2        D)  3<br>
+此题因为a=0，已经可以判断整个表达式不为真，不必再进行++b的运算<br>
+3.在while(!x)后面有一个分号，表示该循环的循环体为空，即只做判断和循环，并不执行操作。</p>
 
             </div>
-            
-              <div class="tag-container">
-                
-                  <a href="https://NERV-0.github.io/tag/VT9tegDYZ/" class="tag">
-                    C
-                  </a>
-                
-              </div>
             
             
               <div class="next-post">
                 <div class="next">下一篇</div>
-                <a href="https://NERV-0.github.io/post/c-yu-yan-xue-xi-xun-huan/">
+                <a href="https://NERV-0.github.io/post/c-yu-yan-xue-xi-zhi-zhen/">
                   <h3 class="post-title">
-                    C语言学习——循环
+                    C语言学习——指针
                   </h3>
                 </a>
               </div>
