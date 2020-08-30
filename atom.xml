@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://NERV-0.github.io</id>
     <title>NERV-0</title>
-    <updated>2020-08-28T14:51:13.817Z</updated>
+    <updated>2020-08-30T07:28:28.426Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://NERV-0.github.io"/>
     <link rel="self" href="https://NERV-0.github.io/atom.xml"/>
@@ -17,7 +17,7 @@
         </link>
         <updated>2020-08-28T11:11:24.000Z</updated>
         <content type="html"><![CDATA[<p>1.a[3][4]这是一个3行4列的·数组<br>
-2.二维的列可以空，行不可以为空比如：a[ ][6]合法<br>
+2.二维的列可不以空，行可以为空比如：a[ ][6]合法<br>
 3，字符数组，%s为整个字符串输入出，%c为单个字符<br>
 4.printf(&quot;%s&quot;.arr[0])这个写法是错误的</p>
 ]]></content>
@@ -75,6 +75,7 @@ p=a；（相当于p=&amp;a[0]）<br>
 逗号可以使用<br>
 2.while循环<br>
 先判断再执行<br>
+while(*s)意思就是字符bai串输出完就结束循环。<br>
 3.do...while循环<br>
 先无条件执行一遍再判断<br>
 PS：循环可互相嵌套<br>
