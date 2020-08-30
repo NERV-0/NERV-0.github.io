@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://NERV-0.github.io</id>
     <title>NERV-0</title>
-    <updated>2020-08-30T07:28:28.426Z</updated>
+    <updated>2020-08-30T13:45:50.609Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://NERV-0.github.io"/>
     <link rel="self" href="https://NERV-0.github.io/atom.xml"/>
@@ -40,7 +40,8 @@
 A) 0       B)  1       C)   2        D)  3<br>
 此题因为a=0，已经可以判断整个表达式不为真，不必再进行++b的运算<br>
 3.在while(!x)后面有一个分号，表示该循环的循环体为空，即只做判断和循环，并不执行操作。<br>
-4.?: 叫 条件运算符，它的bai优先等级最低。构架du为：A?B:C，就是说：A为真吗zhi？若真，则整个构架的dao结果为 B，若假，则整个构架的结果为 C。</p>
+4.?: 叫 条件运算符，它的bai优先等级最低。构架du为：A?B:C，就是说：A为真吗zhi？若真，则整个构架的dao结果为 B，若假，则整个构架的结果为 C。<br>
+5.赋值只能赋给变量，不能赋给表达式</p>
 ]]></content>
     </entry>
     <entry>
