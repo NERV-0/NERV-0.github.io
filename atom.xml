@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://NERV-0.github.io</id>
     <title>NERV-0</title>
-    <updated>2020-09-15T12:38:25.898Z</updated>
+    <updated>2020-09-16T08:07:39.005Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://NERV-0.github.io"/>
     <link rel="self" href="https://NERV-0.github.io/atom.xml"/>
@@ -10,6 +10,19 @@
     <logo>https://NERV-0.github.io/images/avatar.png</logo>
     <icon>https://NERV-0.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, NERV-0</rights>
+    <entry>
+        <title type="html"><![CDATA[linux学习<1>]]></title>
+        <id>https://NERV-0.github.io/post/linux-xue-xi-less1greater/</id>
+        <link href="https://NERV-0.github.io/post/linux-xue-xi-less1greater/">
+        </link>
+        <updated>2020-09-16T07:40:19.000Z</updated>
+        <content type="html"><![CDATA[<p>命令行：<br>
+ls     列表<br>
+cat   合并输出文件内容<br>
+cd    改变文件夹<br>
+pwd  输出当前文件夹</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[JS学习<1>]]></title>
         <id>https://NERV-0.github.io/post/js-xue-xi-less1greater/</id>
