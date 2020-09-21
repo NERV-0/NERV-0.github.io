@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://NERV-0.github.io</id>
     <title>NERV-0</title>
-    <updated>2020-09-16T08:07:39.005Z</updated>
+    <updated>2020-09-21T10:36:46.278Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://NERV-0.github.io"/>
     <link rel="self" href="https://NERV-0.github.io/atom.xml"/>
@@ -10,6 +10,36 @@
     <logo>https://NERV-0.github.io/images/avatar.png</logo>
     <icon>https://NERV-0.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, NERV-0</rights>
+    <entry>
+        <title type="html"><![CDATA[linux学习<2>]]></title>
+        <id>https://NERV-0.github.io/post/linux-xue-xi-less2greater/</id>
+        <link href="https://NERV-0.github.io/post/linux-xue-xi-less2greater/">
+        </link>
+        <updated>2020-09-21T10:35:54.000Z</updated>
+        <content type="html"><![CDATA[<p>灵魂三问<br>
+whatis</p>
+<p>whereis</p>
+<p>which</p>
+<p>命令行快捷方式💡<br>
+记忆命令<br>
+⬆️上一条命令</p>
+<p>⬇️️下一条命令</p>
+<p>ctrl+r搜索历史命令</p>
+<p>快速移动<br>
+⬅️向左一格</p>
+<p>➡️️向右一格</p>
+<p>ctrl+⬅️向左一个单词</p>
+<p>ctrl+➡向右一个单词</p>
+<p>ctrl+a直接到头</p>
+<p>ctrl+e直接到尾</p>
+<p>快速删除<br>
+ctrl+c忽略当前行</p>
+<p>ctrl+u全部删除</p>
+<p>ctrl+k从光标位置删除到结尾</p>
+<p>登出系统<br>
+ctrl+d登出系统log out</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[linux学习<1>]]></title>
         <id>https://NERV-0.github.io/post/linux-xue-xi-less1greater/</id>
@@ -20,7 +50,9 @@
 ls     列表<br>
 cat   合并输出文件内容<br>
 cd    改变文件夹<br>
-pwd  输出当前文件夹</p>
+pwd  输出当前文件夹<br>
+whatis 告诉你某条命令是干嘛的<br>
+man     查看手册</p>
 ]]></content>
     </entry>
     <entry>
